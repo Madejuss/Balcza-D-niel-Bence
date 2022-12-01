@@ -30,7 +30,7 @@ if __name__ == "__main__":
     felulet.geometry("300x350")
 
     szoveg = StringVar()
-    vegeredmeny_doboz = Entry(felulet, textvariable=szoveg, font=("Arial", 16))
+    vegeredmeny_doboz = Entry(felulet, textvariable=szoveg, font=("Arial", 16),state="disabled")
     vegeredmeny_doboz.grid(columnspan=4, ipadx=60)
     vegeredmeny_doboz.place(x=30,y=10, width=224, height=37)
 
